@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Richdynamix_SimilarProducts</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Better Magento Up-Sell Products with PredictionIO Integration</summary>
+    <description>Similar Products is a extension that utilizes the Similarity engine of PredictionIO to create a more personalized suggestion of up-sell products on the Magento product page. Tracking customers product views and purchases the PredictionIO engine provides fresh and relevant up-sell suggestions for the current customer.</description>
+    <notes>Latest release 3 month after Gihub release</notes>
+    <authors><author><name>Steven Richardson</name><user>gizmo84</user><email>steven@richdynamix.com</email></author></authors>
+    <date>2014-04-05</date>
+    <time>21:46:29</time>
+    <contents><target name="magelocal"><dir name="Richdynamix"><dir name="SimilarProducts"><dir name="Block"><dir name="Catalog"><dir name="Product"><dir name="List"><file name="Upsell.php" hash="171bd7fdbf1be826b84cd4785095f3d1"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="7e9173e8c0f0c5575c8383859aa7c292"/></dir><dir name="Model"><file name="Observer.php" hash="43b3bf6b06e1e4de0d6925f65a6d3609"/></dir><dir name="controllers"><dir name="Frontend"><dir name="Review"><file name="ProductController.php" hash="4a20c66de03b1945ef3701e91aa05f4e"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="34cb156b2e297792940786e3985cd132"/><file name="config.xml" hash="9b1f9d208392ea03139474610bb7c112"/><file name="system.xml" hash="5b81bbd2f36d9f0d10a613c42390f86d"/></dir><file name=".DS_Store" hash="5f8a321c73305c7c761f1c678facbd5c"/></dir><file name=".DS_Store" hash="db53355314e93675729c6a119b1595bf"/></dir></target><target name="mage"><dir name="shell"><file name="similarity.php" hash="1e1df061d38597f35dc1c544ec686c8d"/></dir></target><target name="mageetc"><dir name="modules"><file name="Richdynamix_SimilarProducts.xml" hash="c8dcc088872cbfad79af54f67df016ac"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.5.0</max></php><extension><name>curl</name><min>7.30</min><max/></extension></required></dependencies>
+</package>
