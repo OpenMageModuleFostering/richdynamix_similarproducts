@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Richdynamix_SimilarProducts",
+    "name": "openmage-module-fostering\/richdynamix_similarproducts",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Better Magento Up-Sell Products with PredictionIO Integration",
     "authors": [
